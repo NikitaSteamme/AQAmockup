@@ -64,7 +64,7 @@ public class Checkout {
         WebElement passwordField = driver.findElement(By.xpath("//*[@id='j_password']"));
         WebElement loginButton = driver.findElement(By.cssSelector("#j_idt51 > div > div > input[type=submit]"));
 
-        loginField.sendKeys("meshn@outlook.com");
+        loginField.sendKeys("test@outlook.com");
         passwordField.sendKeys("Qwerty123");
         loginButton.click();
 
